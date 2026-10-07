@@ -1,0 +1,14 @@
+@media (max-width:900px){.foot-grid{grid-template-columns:1fr 1fr}.contact-wrap{grid-template-columns:1fr}.hero::before{width:300px;height:300px;right:-110px}}
+@media (max-width:760px){
+.burger{display:block}
+.nav-links{position:absolute;top:68px;left:0;right:0;flex-direction:column;background:var(--paper);border-bottom:1px solid var(--line);padding:0 4%;max-height:0;overflow:hidden;opacity:0;transition:max-height .35s ease,opacity .25s,padding .35s}
+.nav-links.open{max-height:420px;opacity:1;padding:.6rem 4% 1rem}
+.nav-links a{display:block;padding:.75rem}
+.section{padding:3rem 0}.form-grid{grid-template-columns:1fr}.form-card{padding:1.3rem}
+.hero{padding:3.5rem 0}.hero::after{display:none}
+.sch-table thead{display:none}.sch-table,.sch-table tbody,.sch-table tr,.sch-table td{display:block;width:100%}
+.sch-table tr{border-top:6px solid var(--paper);padding:.6rem 0}.sch-table td{border:0;padding:.2rem 1rem}
+.sch-table td::before{content:attr(data-l)": ";font-weight:700;color:var(--muted)}
+.lb-btn{width:38px;height:38px}.lb-view{font-size:4rem}}
+@media (max-width:520px){.foot-grid{grid-template-columns:1fr}.btns .btn{flex:1;justify-content:center}.toolbar select,.toolbar input{width:100%}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
